@@ -1,6 +1,8 @@
 # BrickEmuPy
 Handheld LCD games emulator in Python with PyQt6.
 
+## [Simple web build with demo](/web/)
+
 <img width="1908" height="1032" alt="image" src="https://github.com/user-attachments/assets/6e06034c-db54-4b2f-b223-334ade01f1ce" /></BR>
 
 ## List of emulated handheld games:
@@ -88,5 +90,3 @@ python3 main.py
 </BR><img width="1435" height="1032" alt="image" src="https://github.com/user-attachments/assets/3c7628b6-2de6-4da0-868a-ba9c1edd9e7f" />
 <img width="1435" height="1032" alt="image" src="https://github.com/user-attachments/assets/3daa3f2a-567e-4ff6-bce8-7c24ec9c75f2" />
 <img width="1435" height="1032" alt="image" src="https://github.com/user-attachments/assets/aec61045-ca1c-43e4-859e-4e807f999706" />
-
-

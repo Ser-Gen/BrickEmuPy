@@ -1,0 +1,63 @@
+{
+	"id": "cdb39853-a94e-4421-befe-4801d7ad7d3f",
+	"credits": "ROM dump by Milan Galcik (https://www.septimus.sk/KB1013dbg/index.html)",
+	"core": "T7741",
+	"face_path": "./assets/TomJerryPrank.svg",
+	"clock": 175000,
+	
+	"buttons": {
+		"btnGameA": {
+			"port": "INP",
+			"pin": 2,
+			"level": {
+				"port": "OUTP",
+				"pin": 0
+			},
+			"hot_keys": [65, 16777234]
+		},
+		"btnGameB": {
+			"port": "INP",
+			"pin": 1,
+			"level": {
+				"port": "OUTP",
+				"pin": 0
+			},
+			"hot_keys": [68, 16777236]
+		},
+		"btnTime": {
+			"port": "INP",
+			"pin": 0,
+			"level": {
+				"port": "OUTP",
+				"pin": 0
+			},
+			"hot_keys": [49]
+		},
+		"btnAlarm": {
+			"port": "INP",
+			"pin": 3,
+			"level": {
+				"port": "OUTP",
+				"pin": 0
+			},
+			"hot_keys": [50]
+		},
+		"btnACL": {
+			"port": "RES",
+			"pin": 0,
+			"level": {
+				"port": "OUTP",
+				"pin": 0
+			},
+			"hot_keys": [51, 82]
+		}
+	},
+	
+	"mask_options": {
+		"rom_path": "./assets/TomJerryPrank.bin",
+		"prescaler_div": [2, 8, 32],
+		"sub_clock": 32768,
+		"com_div": 768,
+		"sound_gnd": 0
+	}
+}
