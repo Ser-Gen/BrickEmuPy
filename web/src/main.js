@@ -44,6 +44,11 @@ app.innerHTML = `
 
       <button id="controlsBtn">Controls</button>
       <button id="mute">Mute</button>
+      <div class="project-links" aria-label="Project links">
+        <a href="https://github.com/azya52/BrickEmuPy" target="_blank" rel="noopener noreferrer">Original repository</a>
+        <a href="https://habr.com/ru/articles/773040/" target="_blank" rel="noopener noreferrer">Reverse engineering article</a>
+        <a href="https://github.com/Ser-Gen/BrickEmuPy/tree/main/web" target="_blank" rel="noopener noreferrer">Demo web port repo</a>
+      </div>
       <p id="status">Ready</p>
     </aside>
 

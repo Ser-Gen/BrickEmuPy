@@ -112,6 +112,21 @@ button:hover {
   color: var(--status);
 }
 
+.project-links {
+  display: grid;
+  gap: 4px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.project-links a {
+  color: color-mix(in oklab, var(--accent), #113f7a 35%);
+}
+
+.project-links a:hover {
+  color: var(--accent);
+}
+
 .preset-warning {
   border: 1px solid color-mix(in oklab, var(--accent), black 8%);
   background: color-mix(in oklab, var(--accent), var(--panel) 78%);
